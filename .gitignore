@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+*.local
+electron-dist/
+backend_dist/
+
+# Environment files (contain API keys)
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.db
+venv/
+backend/venv/
+backend/artifacts/
+backend/fx_analytics.db
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Bun (not used, prefer npm)
+bun.lockb
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Electron packaged app
+app.asar
+app.asar.unpacked/
+
+# PDF docs
+*.pdf
+*.pdf:Zone.Identifier
+*:Zone.Identifier
+
+# Package lock
+package-lock.json
+
+# Cursor
+.cursor/
+
+# Agent context
+AGENT_CONTEXT.md
